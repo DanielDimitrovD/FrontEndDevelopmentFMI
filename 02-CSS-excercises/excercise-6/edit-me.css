@@ -2,6 +2,7 @@
     position: absolute;
     margin-top: 300px;
     margin-left: 400px;
+    z-index: 5;
 }
 
 #silver {
@@ -11,14 +12,19 @@
 }
 
 #green {
-
+    position: fixed;
+    margin-top: 100px;
+    margin-right: 0px;
 }
 
 #blue {
-
+  
 }
 
-#yellow {
 
+#yellow {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 800px;
 }
 
