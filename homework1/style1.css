@@ -1,0 +1,120 @@
+@media only screen and (max-width: 890px) {
+    body {
+      background-color: red;
+    }
+  }
+
+
+
+* {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+html,body {
+    font-size: 16px;
+    margin: 0;
+    height: 100%;
+    background-image: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+}
+
+button:focus {
+    outline: none;
+}
+
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 2.5rem;
+}
+
+.screen-content {
+    max-width: 32rem;
+    width: 90%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 2.5rem;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.login {
+    color: #848694;
+    font-size: 26px;
+    margin: 0;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    font-weight: normal;
+}
+
+.input-form input {
+    width: 100%;
+    margin: 8px;
+    border:none;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(180, 185, 234);
+}
+
+.input-form input:focus {
+    outline: none;
+    border-bottom: 1px solid rgb(0 , 24, 214);
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.button-container button {
+    max-width: 10rem;
+} 
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-wrapper button {
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.submit-button {
+    color: white;
+    background-color: rgb(84, 189, 214);
+}
+
+.create-account-button {
+    color: rgb(44, 77, 216);
+    background-color: white;
+}
